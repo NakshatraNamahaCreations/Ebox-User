@@ -108,6 +108,7 @@ export default function Cart({navigation}) {
                     }}
                   />
                 </View>
+
                 <View style={{flex: 0.6, marginLeft: 12}}>
                   <View style={{paddingTop: 15}}>
                     <Text
@@ -477,7 +478,7 @@ export default function Cart({navigation}) {
                 />
               </View>
             </View>
-            <View
+            {/* <View
               style={{
                 marginVertical: 5,
                 flexDirection: 'row',
@@ -575,34 +576,9 @@ export default function Cart({navigation}) {
                   }}
                 />
               </View>
-              <View style={{flex: 0.6, marginLeft: 2}}>
-                {/* <Text
-                  style={{
-                    color: 'black',
-                    fontFamily: 'Montserrat-Medium',
-                    marginVertical: 3,
-                  }}>
-                  Receiver Mobile Number
-                </Text>
-                <TextInput
-                  // placeholder="Enter receiver Mobilenumber"
-                  placeholderTextColor="#a3a3a3"
-                  style={{
-                    borderRadius: 10,
-                    // width: '100%',
-                    // height: 50,
-                    padding: 5,
-                    color: 'black',
-                    fontFamily: 'Montserrat-Medium',
-                    paddingLeft: 16,
-                    borderColor: '#d7d7d7',
-                    borderWidth: 1,
-                    marginTop: 5,
-                    // letterSpacing: 1,
-                  }}
-                /> */}
+              <View style={{flex: 0.6, marginLeft: 2}}> 
               </View>
-            </View>
+            </View> */}
           </View>
         </View>
         <View style={{backgroundColor: 'white', padding: 10}}>

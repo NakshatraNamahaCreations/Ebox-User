@@ -368,7 +368,7 @@ export default function OrderSummary({navigation}) {
                   +91-9843174532
                 </Text>
               </View>
-              <View style={{flex: 0.4}}>
+              {/* <View style={{flex: 0.4}}>
                 <Text
                   style={{
                     color: 'black',
@@ -415,7 +415,7 @@ export default function OrderSummary({navigation}) {
                   }}>
                   KA 02TR 0006
                 </Text>
-              </View>
+              </View> */}
             </View>
             <View style={{flexDirection: 'row'}}>
               <View style={{width: 120, height: 120, marginRight: 10}}>
