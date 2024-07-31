@@ -894,7 +894,7 @@ export default function ProductDetails({navigation, route}) {
                       color="#ffa41d"
                     />
                   ))}
-                  <Text
+                  {/* <Text
                     style={{
                       color: 'maroon',
                       fontSize: 13,
@@ -902,7 +902,7 @@ export default function ProductDetails({navigation, route}) {
                       marginLeft: 5,
                     }}>
                     Verified Purchase
-                  </Text>
+                  </Text> */}
                 </View>
                 <View>
                   <Text
